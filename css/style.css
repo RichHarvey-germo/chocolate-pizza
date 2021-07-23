@@ -1,28 +1,32 @@
 /* font-family: 'Pacifico', cursive;*/
-use 'strict'
-
-header {
-    font-family: 'Pacifico', cursive;
-    font-size: 24px;
-    font-weight: bolder;
+h1 {
+  font-family: "Yellowtail", cursive;
+  font-size: 46px;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .logo {
-
+  height: 2em;
 }
 
-.delicious {
-
+h2 {
+  font-family: 'Anton';
+  font-size: 3vw;
+  margin-left: 1.2;
 }
 
-.social{
-
+section p{
+  font-family: 'Anton';
+  color: gray;
+  font-size: 12px;
+}
+.social {
 }
 
 button {
-
 }
 
 .paragraph {
-    text-indent: 5%;
+  text-indent: 5%;
 }
