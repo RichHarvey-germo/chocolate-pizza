@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>Delicious Blog!</title>
-        <link href="css/reset.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="../css/reset.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -13,12 +13,11 @@
     <body>
         <header>
             <section>
-                <img src="../img/logo.png">
-                <h1>Delicious</h1>
-                <p>THE BEST FOOD BLOG ON THE WEB</p>
-                <!-- logo, delicious font, tagline, all icons to the right -->
+                <img src="../img/logo.png" alt="logo" class="logo">
+                <h1 class="delicious">Delicious</h1>
+                <p class="blog">THE BEST FOOD BLOG ON THE WEB</p>
             </section>
-            <section>
+            <section class="social">
                 <img src="../img/fb-icon.png">
                 <img src="../img/twit-icon.png">
                 <img src="../img/gp-icon.png">
@@ -30,6 +29,7 @@
             </section>
         </header>
         <main>
+            <h3 class="striped-line"></h3>
             <section>
                 <h1>Chocolate Pizza</h1>
                 <p>Posted on 15 Dec 2013 / Desserts</p>
@@ -40,13 +40,13 @@
             <section>
                 <img src="../img/choco-pizza.png">
             </section>
-            <section>
-                <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
+            <article>
+                <p class="paragraph">For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
                 <br>
-                <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
+                <p class="paragraph">Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
                 <br>
-                <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
-            </section>
+                <p class="paragraph">Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
+            </article>
             <section>
                 <img src="../img/list-bg.png">
             </section>
@@ -63,7 +63,7 @@
             <p>Delicious &#169;2013 - All Rights Reserved.</p>
             <p>Proudly published with Ghost.</p>
         </footer>
-        <script src="js/app.js"></script>
+        <script src="../js/app.js"></script>
     </body>
 </html>
 
