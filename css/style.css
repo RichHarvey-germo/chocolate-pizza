@@ -1,32 +1,138 @@
 /* font-family: 'Pacifico', cursive;*/
+header {
+  margin: 20px 30px 50px 30px;
+}
+main {
+  margin: 30px 30px;
+}
+body {
+}
 h1 {
   font-family: "Yellowtail", cursive;
   font-size: 46px;
   font-weight: bold;
   font-style: italic;
 }
-
 .logo {
   height: 2em;
+  float: left;
+  position: relative;
 }
-
 h2 {
-  font-family: 'Anton';
-  font-size: 3vw;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
   margin-left: 1.2;
 }
-
 section p{
-  font-family: 'Anton';
-  color: gray;
-  font-size: 12px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: lightgray;
+  
 }
 .social {
+  float: right;
+  position: relative;
 }
-
 button {
 }
-
-.paragraph {
-  text-indent: 5%;
+#paragraph {
+  text-indent: 3%;
+  font-family: 'Crimson Text', serif;
+  color: gray;
+  padding: 10px;
+  max-width: 960px;
+  font-size: large;
+}
+#choco-pizza {
+  max-width: 960px;
+  width: 100%;
+  margin: 10px;
+}
+#printicon {
+  float: right;
+  margin: 3px;
+}
+#printtext {
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: lightgray;
+  float: right;
+}
+#list img {
+  max-width: 960px;
+}
+#list {
+  background-image: url("../img/list-bg.png");
+  font-family: 'Patrick Hand', cursive;
+}
+#footerline {
+  color: lightgray;
+}
+h4 {
+  font-family: 'Crimson Text', serif;
+  font-weight: bolder;
+  color: gray;
+  font-size: large;
+}
+#vanessa img {
+  float: left;
+  margin-right: 12px;
+}
+#vanessa p {
+  font-family: 'Crimson Text', serif;
+  color: gray;
+  font-size: large;
+}
+button {
+  background-color: #c0745c;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Pathway Gothic One', sans-serif;
+  float: right;
+}
+.line-footer1 {
+  background-color: gray;
+  width: 47%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.small-logo {
+  border: 2px solid white;
+  display: inline-block;
+  max-width: 960px;
+}
+.line-footer2 {
+  background-color: gray;
+  width: 47%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+footer p {
+  text-align: center;
+  color: gray;
+  font-size: 16px;
+  font-family: 'Crimson Text', serif;
+}
+ul {
+  font-weight: 500;
+  color: gray;
+  font-size: 20px;
+  padding: 30px 50px;
+  flex-flow: column wrap;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  height: 250px;
+  font-weight: 500;
+  color: gray;
+  font-size: 20px;
+  background-image: url("../img/list-bg.png");
+  font-family: 'Patrick Hand', cursive;
 }
